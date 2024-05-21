@@ -1,0 +1,40 @@
+/* .custom{
+    width: 50%; 
+    min-width: 500px !important;
+    height: 50px; 
+}
+@media(max-width:300px){
+    .custom{
+        width: 10% !important;
+        min-width: 0;
+    
+    }
+} */
+/* Default styles for the search bar */
+.custom {
+    width: 100%; /* Initial width */
+    min-width: 500px; /* Minimum width */
+    height: 40px; /* Height of the search bar */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+    .custom {
+        width: 80%; /* Set width to 80% when viewport is 500px or smaller */
+        min-width: 200px; /* Reset min-width */
+        height: 40px; /* Reduce height for smaller screens */
+    }
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.navbar-custom {
+    height: 100vh;
+}
+.colors{
+    background-color: rgb(239, 239, 215) !important;
+}
+.h-color{
+    background-color:rgb(7, 115, 115) !important;
+}
