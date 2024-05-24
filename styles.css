@@ -31,10 +31,25 @@ body, html {
 }
 .navbar-custom {
     height: 100vh;
+    padding:20px;
 }
 .colors{
     background-color: rgb(239, 239, 215) !important;
 }
 .h-color{
     background-color:rgb(7, 115, 115) !important;
+}
+a{
+    text-decoration: none !important;
+    color:black;
+}
+.but-ton{
+    padding:8px;
+    border-radius:8px;
+    width:160px;
+    margin-top:15px;
+    /* text-decoration: none; */
+}
+.brighter-icon {
+    filter: brightness(2) !important; /* Increase brightness by 50% */
 }
