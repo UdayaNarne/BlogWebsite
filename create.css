@@ -1,0 +1,31 @@
+.apps{
+    display:flex;
+    flex-wrap:wrap;
+    width: 25px;
+    margin:0;
+    padding:0px;
+}
+
+.apps svg{
+    margin:0;
+    padding:0px;
+}
+
+.right{
+    float:right;
+}
+.but-ton2{
+    padding:4px;
+    border-radius:4px;
+    width:100px;
+    margin-left:15px;
+    display:flex;
+    text-decoration: none;
+}
+.but-ton2 svg{
+    margin-right:5px;
+}
+.buttons{
+    display:flex;
+    
+}
