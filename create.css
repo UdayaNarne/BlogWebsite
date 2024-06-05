@@ -5,11 +5,23 @@
     margin:0;
     padding:0px;
 }
+.navbar-custom{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh !important;
+    width: 280px !important;
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+    overflow-y: auto;
+
+}
 
 .apps svg{
     margin:0;
     padding:0px;
 }
+
 
 .right{
     float:right;
