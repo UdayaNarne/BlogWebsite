@@ -5,11 +5,19 @@
     margin:0;
     padding:0px;
 }
-
+.navbar-custom1 {
+    grid-column: 3;
+    /* flex-direction: column; */
+    justify-content: start;
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+    padding: 20px;
+}
 .apps svg{
     margin:0;
     padding:0px;
 }
+
 
 .right{
     float:right;
@@ -28,4 +36,16 @@
 .buttons{
     display:flex;
     
+}
+.center-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1 fr;
+    grid-template-rows:auto 1fr;
+    height: 100%;
+}
+.center-pg {
+    grid-column: 1 / span 2;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
